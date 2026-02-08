@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+env/
+**/site-packages/
+
+# Large model files
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+*.lib
+*.dll
+*.so
+
+# Large data files
+*.tar.gz
+*.zip
+*.gz
+**/cifar*/
+**/MNIST/
+**/FashionMNIST/
+trained_models*/
+
+# Large CSV files (keep small ones)
+returns_and_characteristics.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
